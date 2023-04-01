@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Build a Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <h1 id="main_title">
+        Are you a Celiac person?
+    </h1>
+    <p id="description">The Celiac choice is a good option to people who have a disease and want to know if suffering that disease</p>
+    <form id="survey-form" action="">
+      <div>
+        <label id="nameLabel1">Name</label>
+        <input id="name" type="text" placeholder="enter your name" name="survey"/>
+      </div>
+      <div>
+        <label id="emailLabel">Email</label>
+        <input id="email" pattern=".+@globex\.com" size="30" type="email" placeholder="enter your email" name="survey"/>
+      </div>
+      <div>
+        <label id="numberLabel">Age</label>
+        <input id="number" type="number" placeholder="enter your number" name="survey"/>
+      </div>
+    </form>
+
+    <script  src="js/index.js"></script>
+  </body>
+</html>
